@@ -1,0 +1,287 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background-color:#333;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+}
+.topbar {
+
+    background-color:#333;
+    height: 80px;
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 1226px;
+}
+.container::before , .container::after{
+    content: "";
+    display:table;
+}
+.container::after{
+    clear:both;
+
+}
+
+.topbar a{
+    color: #b0b0b0;
+    font-size: 20px;
+
+}
+.topbar a:hover{
+    color:#fff;
+}
+.topbar-nav{
+    float: left;
+    line-height: 80px;
+    height: 60px;
+    font-size:0;
+    width: 820px;
+}
+.topbar-nav a{
+    color: #b0b0b0;
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+.header-logo{
+
+    float: left;
+    width: 62px;
+    margin-top: 15px;
+}
+.header-logo a{
+    display: block;
+    width: 60px;
+    height: 55px;
+    background: url("logo.jpg");
+}
+.topbar-nav span{
+    font-size:12px;
+    color: #424242;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+.topbar-info{
+    float: right;
+    line-height: 80px;
+    height: 60px;
+    font-size:0;
+
+}
+.topbar-info span{
+    font-size:12px;
+    color: #424242;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+
+.header-search{
+
+    width: 296px;
+    height: 50px;
+
+}
+.header-search {
+
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 1226px;
+}
+.header-search::before , .header-search::after{
+    content: "";
+    display:table;
+}
+.header-search::after{
+    clear:both;
+
+}
+.header-search .search-form{
+    position: relative;
+    display: block;
+    width: 296px;
+    height: 50px;
+}
+
+.header-search .search-form .search-text{
+    position: absolute;
+    display: block;
+    width: 1170px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+}
+
+.header-search .search-form .search-btn{
+    position: absolute;
+    top: 0;
+    left: 1170px;
+    display: block;
+    width: 60px;
+    height: 54px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+}
+.header-search .search-form .search-btn:hover{
+
+background-color: #ff6700;
+    color: #fff;
+}
+
+
+.node{
+    height:50px ;
+
+    font-size: 25px;
+    padding-right: 100px;
+    padding-left: 150px;
+    padding-top: 20px;
+
+}
+.node a{
+        color: green;
+}
+.title1{
+
+    position: absolute;
+    left: 150px;
+    hight:40px;
+    font-size: 20px;
+    color: #b0b0b0;
+    bottom: 440px;
+}
+.title2{
+
+    position: absolute;
+    left: 150px;
+    hight:40px;
+    bottom: 250px;
+    font-size: 20px;
+    color: #b0b0b0;
+}
+.Transactions{
+    border: 3px solid orange;
+    height: auto;
+    min-height: 140px;
+    width: 1226px;
+    position: absolute;
+    left: 150px;
+    bottom: 290px;
+    color: white;
+    font-size: 20px;
+}
+.Data{
+    border: 3px solid orange;
+    height: auto;
+    min-height: 140px;
+    width: 1226px;
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+    color: white;
+    font-size: 20px;
+
+}
+.bottom{
+    height: auto;
+    width: 1350px;
+    min-height: 80px;
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+    color: white;
+}
+
+.bottom_copy a{
+    position: absolute;
+    left: 500px;
+    bottom: 20px;
+    color: #b0b0b0;
+    font-size: 20px;
+}
+.bottom_source a{
+    position: absolute;
+    right: 10px;
+    color: #b0b0b0;
+    font-size: 20px;
+}
+.main a{
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #b0b0b0;
+    font-size: 20px;
+}
+.submit-row a{
+    position: absolute;
+    bottom: 30px;
+    color: #b0b0b0;
+    right: 5px;
+    font-size: 20px;
+}
+.right{
+    position: absolute;
+    left: 450px;
+    bottom:5px ;
+    color: #b0b0b0;
+    font-size: 10px;
+
+}
+.transaction_title{
+    position: absolute;
+    left: 150px;
+    color: #b0b0b0;
+    font-size: 20px;
+    top: 100px;
+}
+.transaction_data{
+    position: absolute;
+    border: 3px solid orange;
+    width: 1226px;
+    left: 150px;
+    height: auto;
+    min-height: 140px;
+    top: 140px;
+    font-size: 20px;
+    color: #b0b0b0;
+}
+.data_on_chain_title{
+    position: absolute;
+    left: 150px;
+    color: #b0b0b0;
+    font-size: 20px;
+    top: 100px;
+}
+.data_on_chain_data{
+    position: absolute;
+    border: 3px solid orange;
+    width: 1226px;
+    left: 150px;
+    height: auto;
+    min-height: 140px;
+    top: 140px;
+    font-size: 20px;
+    color: #b0b0b0;
+}
+
+
+
+
+
+
+
+
+
+
