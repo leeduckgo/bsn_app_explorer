@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/style.css">
+    <title>区块链业务浏览器</title>
+</head>
+<body>
+<div class="topbar">
+
+    <div class="container">
+        <div class="header-logo">
+            <a href="#"></a>
+        </div>
+        <div class="topbar-nav" style="margin-left: 20px;">
+
+            <a href="{{ url_for('main')}}">Home </a>
+        </div>
+
+        <div class="topbar-info">
+            <a href="">Mainnet</a><span>|</span>
+            <a href="">TestNet</a><span>|</span>
+        </div>
+
+    </div>
+</div>
+
+<div class="header-search">
+    <form action="" class="search-form" method="post">
+        <input type="text" name="keyword" placeholder="请输入您的BaseKey以查询" class="search-text">
+        <input type="submit" value="搜索" class="search-btn">
+    </form>
+</div>
+<div class="node">
+    <p style="color:black">节点信息： {{node}}</p>
+</div>
+
+<div style="color:black;text-align: center;">
+    <h3>Data On Chain</h3>
+    <div style="color:black;border: 3px solid orange;
+    width:100%;
+    display: block;
+    margin:0 auto;
+    ">
+        <table style="width: 60%;margin:auto">
+            <thead>
+                <tr>
+                    <th>键</th>
+                    <th>值</th>
+                    <th>最近更新日期</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for data in data_on_chain %}
+                <tr>
+                    <td> {{data['key']}} </td>
+                    <td> {{data['value']}} </td>
+                    <td> {{data['last_update_time']}} </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div style="color:black;text-align: center;">
+    <h3>Transactions</h3>
+    <div style="color:black;border: 3px solid orange;
+    width:100%;
+    display: block;
+    margin:0 auto;
+    ">
+        <table style="width: 100%;margin:auto">
+            <thead>
+                <tr>
+                    <th>哈希</th>
+                    <th>键</th>
+                    <th>操作</th>
+                    <th>时间戳</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for tx in transcations_list %}
+                <tr>
+                    <td> {{tx['tx_id']}}</td>
+                    <td> {{tx['key']}} </td>
+                    <td> {{tx['operation']}} </td>
+                    <td> {{tx['timestamp']}} </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>    
+    </div>
+</div>
+
+
+
+<div style="width:100%;">
+    <div style="text-align: center;color: black;margin-top: 20px;">
+        上海对外经贸大学·区块链技术与应用研究中心 © 2019 all right reserved
+        <div style="float:right;width:10%">
+            <a href="https://github.com/leeduckgo/bsn_app_explorer" target="_blank">Source Code </a>
+            <br>
+            <a href="https://github.com/leeduckgo/bsn_app_explorer/issues" target="_blank">Submit Issues </a>
+            <br>
+            <a href="http://www.suibe.edu.cn/ai/2020/0112/c7666a96188/page.htm" target="_blank">研究中心主页 </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

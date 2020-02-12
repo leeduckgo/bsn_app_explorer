@@ -1,9 +1,7 @@
 body {
-
     margin: 0;
     padding: 0;
-
-    background-color:#333;
+    background-color :white !important;
     height: 300px;
 }
 a{
@@ -18,7 +16,6 @@ a{
 .container {
 
     margin: 0 auto;
-    width: 1226px;
 }
 .container::before , .container::after{
     content: "";
@@ -93,7 +90,6 @@ a{
 
     margin-top: 50px;
     margin-left: 150px;
-    width: 1226px;
 }
 .header-search::before , .header-search::after{
     content: "";
@@ -113,7 +109,7 @@ a{
 .header-search .search-form .search-text{
     position: absolute;
     display: block;
-    width: 1170px;
+    width: 80%;
     height: 50px;
     border: 1px solid #e0e0e0;
     outline: 0;
@@ -122,9 +118,9 @@ a{
 .header-search .search-form .search-btn{
     position: absolute;
     top: 0;
-    left: 1170px;
+    right: 1%;
     display: block;
-    width: 60px;
+    width: 20%;
     height: 54px;
     border: 1px solid #e0e0e0;
     font-size: 24px;
@@ -174,7 +170,6 @@ background-color: #ff6700;
     border: 3px solid orange;
     height: auto;
     min-height: 140px;
-    width: 1226px;
     position: absolute;
     left: 150px;
     bottom: 290px;
@@ -185,7 +180,6 @@ background-color: #ff6700;
     border: 3px solid orange;
     height: auto;
     min-height: 140px;
-    width: 1226px;
     position: absolute;
     left: 150px;
     bottom: 100px;
@@ -195,7 +189,6 @@ background-color: #ff6700;
 }
 .bottom{
     height: auto;
-    width: 1350px;
     min-height: 80px;
     position: absolute;
     left: 150px;
