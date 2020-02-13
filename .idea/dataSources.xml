@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\25369\Desktop\digital_identity\a_db.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="a_db [2]" uuid="ea4f767e-8f06-4d00-bcb9-b6487002bd9c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\git\bsn_app_explorer\a_db.db</jdbc-url>
+    </data-source>
   </component>
 </project>

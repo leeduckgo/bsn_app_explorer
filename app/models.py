@@ -4,7 +4,7 @@ from app import db
 
 
 class Transactions(db.Model):
-    '''定义Transactions 模型类'''
+    """定义Transactions 模型类"""
     __table_args__ = {'extend_existing': True}
     id = db.Column(db.Integer, primary_key=True)
     tx_id = db.Column(db.String, unique=True)
@@ -20,7 +20,7 @@ class Transactions(db.Model):
 
 
 class Data_on_chain(db.Model):
-    '''定义Data_on_chain模型类'''
+    """定义Data_on_chain模型类"""
     __table_args__ = {'extend_existing': True}
     id = db.Column(db.Integer, primary_key=True)
     tx_id = db.Column(db.String, unique=True)

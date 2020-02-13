@@ -50,16 +50,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\25369\Desktop\digital_identity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\25369\Desktop\digital_identity\app" />
       <recent name="C:\Users\25369\Desktop\digital_identity" />
       <recent name="E:\git\digital_identity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\25369\Desktop\digital_identity" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -185,6 +185,7 @@
       <workItem from="1580561578276" duration="2436000" />
       <workItem from="1580621534865" duration="8684000" />
       <workItem from="1580705278448" duration="18247000" />
+      <workItem from="1581573386622" duration="7411000" />
     </task>
     <servers />
   </component>
@@ -205,35 +206,40 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1580724300268">
+    <state width="1493" height="121" key="GridCell.Tab.0.bottom" timestamp="1581579886566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580724300268" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1580724300268">
+    <state width="1493" height="121" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581579886566" />
+    <state width="1493" height="121" key="GridCell.Tab.0.center" timestamp="1581579886566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580724300268" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1580724300268">
+    <state width="1493" height="121" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581579886566" />
+    <state width="1493" height="121" key="GridCell.Tab.0.left" timestamp="1581579886566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580724300268" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1580724300268">
+    <state width="1493" height="121" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581579886566" />
+    <state width="1493" height="121" key="GridCell.Tab.0.right" timestamp="1581579886566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580724300268" />
+    <state width="1493" height="121" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581579886566" />
     <state width="221" height="499" key="HiddenNamespacesPopup" timestamp="1580722159944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="221" height="499" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1580722159944" />
-    <state x="442" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1580705282048">
+    <state x="262" y="53" key="SettingsEditor" timestamp="1581576171943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580705282048" />
+    <state x="262" y="53" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581576171943" />
+    <state x="442" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581573393554">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581573393554" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/digital_identity$save_db__1_.coverage" NAME="save_db (1) Coverage Results" MODIFIED="1580724015928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_identity$run.coverage" NAME="run Coverage Results" MODIFIED="1580724081025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_identity$save_db.coverage" NAME="save_db Coverage Results" MODIFIED="1580723460268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/bsn_app_explorer$run.coverage" NAME="run Coverage Results" MODIFIED="1581579886560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/digital_identity$db_create.coverage" NAME="db_create Coverage Results" MODIFIED="1580626326968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
